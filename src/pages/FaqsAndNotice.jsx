@@ -105,12 +105,17 @@ function FaqsAndNotice() {
             </button>
           ))}
           <div className="absolute md:right-0 md:top-1 top-11 right-2">
-            <a
-              href="#"
+            <p
+              onClick={() =>
+                window.open(
+                  "https://edbmauritius.atlassian.net/servicedesk/customer/portal/4/user/login?destination=portal%2F4",
+                  "_blank",
+                )
+              }
               className=" ml-8 text-[15px] font-sans text-[#3a7ab5] underline"
             >
               Request NELS Helpdesk Support
-            </a>
+            </p>
           </div>
         </div>
       </div>
